@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* icon open */
+
+.icon-bar{
+    position: fixed;
+    top: 20rem;
+    transform: translateY(-50%);
+}
+
+.icon-bar a{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    color:white;
+}
+
+.icon-bar a i{
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.fa-facebook-square{
+    color: #1877F2;
+}
+
+.fa-twitter-square{
+    background: #1DA1F2;
+}
+
+.fa-instagram-square{
+    background: #E4405F;
+}
+
+.fa-linkedin{
+    background: #0A66C2;
+}
+
+.fa-youtube-square{
+    background: #CD201F;
+}
+
+/* icon close */
+
+
+/* header open */
+
+header{
+width: 100vw;
+height: 100vh;
+}
+
+.slider{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slider 20s infinite linear;
+}
+
+@keyframes slider{
+    0%,100%{
+        background-image: url(./images/Background.jfif);
+    }
+    25%{
+        background-image: url(./images/Background1.jfif);
+    }
+    50%{
+        background-image: url(./images/Background2.jfif);
+    }
+    75%{
+        background-image: url(./images/Background3.jfif); 
+    }
+}
+
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    background-color: none;
+}
+
+.navbar-logo{
+    width: 30vw;
+    height: 10vh;
+    text-align: center;
+    background-color: none;
+}
+
+.navbar-logo a{
+    text-decoration: none;
+    margin-top: 3rem;
+    color: black;
+}
+
+.logo{
+    width: 5rem;
+    height: 3rem;
+    color: black;
+}
+
+.toggle-button{
+    position:absolute;
+    top:.75rem;
+    right:1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color:black;
+    border-radius: 10px;
+}
+
+.navbar-link{
+    width: 40vw;
+    height: 10vh;
+    text-align: justify;
+    background-color: none;
+}
+
+.navbar-link ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.navbar-link ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    width: 30vw;
+    height: 10vh;
+    text-align: center;
+    background-color: none;
+}
+
+.btn button{
+    width: 6rem;
+    height: 2rem;
+    margin: 20px 20px 10px 40px;
+    border: 1px solid #fff;
+    font-size: 1rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.login-btn{
+    position: relative;
+    background: #fff;
+    color:black;
+    border-radius: 1rem;
+}
+
+.signup-btn{
+    position: relative;
+    background: rgb(82, 82, 150); 
+    color: #fff; 
+    border-radius: 2rem; 
+}
+
+.section-box{
+    width: 100vw;
+    height: 100vh;
+    background-color: none;
+}
+
+.para{
+    font-size: 3rem;
+    margin:5rem 0 0 17rem;
+}
+
+.text{
+    font-size: 1.5rem;
+    margin:3rem 0 0 17rem;
+}
+
+.section-box img{
+    width: 16rem;
+    height: 5rem;
+    margin: 3rem 0 0 17rem;
+}
+
+/* header close */
+
+
+/* main open */
+
+.main{
+    background-color: none;
+}
+
+.health-app{
+    display: flex;
+    background-color: none;
+}
+
+.health-app img{
+    width: 30vw;
+    height: 90vh;
+    margin: 1rem 0 1rem 14rem;
+}
+
+.app{
+    background-color: none;
+}
+
+.app .app-text{
+    font-size: 3rem;
+    margin:10rem 0 0 10rem;
+}
+
+.app p{
+    font-size: 1.5rem;
+    margin:3rem 0 0 10rem;
+}
+
+.app button{
+    width: 6rem;
+    height: 2.5rem;
+    margin: 1rem 1rem 0 10rem;
+    border: 1px solid #fff;
+    font-size: 1rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.start-btn{
+    position: relative;
+    background: orangered;
+    color: #fff;
+    border-radius: 1rem;
+}
+
+.work-btn{
+    position: relative;
+    background: #fff; 
+    color: black; 
+    border-radius: 1rem; 
+}
+
+/* main close */
+
+
+/* tools-goals open */
+
+.tools-goals{
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+}
+
+.tools{
+    width: 100%;
+    background-color: none;
+}
+
+.tools .tools-text{
+    font-size: 3rem;
+}
+
+.tools p{
+    font-size: 1.5rem;
+}
+
+.goals{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    background-color: none;
+}
+
+.goals-images{
+    width: 50vw;
+    flex-direction: column;
+    text-align: center;
+}
+
+.goals-images img{
+    width: 10rem;
+    height: 8rem;
+}
+
+.images-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.goals-images p{
+    font-size: 1rem;
+}
+
+/* tools-goals close */
+
+
+/* fitness-journey open */
+
+.fitness-journey{
+    display: flex;
+    background-color: none;
+}
+
+.yoga{
+    background-color: none;
+}
+
+.yoga .yoga-text{
+    font-size: 3rem;
+    margin:10rem 0 0 10rem;
+}
+
+.yoga p{
+    font-size: 1.5rem;
+    margin:3rem 0 0 10rem;
+}
+
+.yoga button{
+    width: 6rem;
+    height: 2rem;
+    margin: 1rem 1rem 0 10rem;
+    border: 1px solid #fff;
+    font-size: 1rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.yostart-btn{
+    position: relative;
+    background: orangered;
+    color: #fff;
+    border-radius: 1rem;
+}
+
+.yowork-btn{
+    position: relative;
+    background: #fff; 
+    color: black; 
+    border-radius: 1rem; 
+}
+
+.yoga-app{
+    width: 100vw;
+    height: 100vh;
+    background-color: none;
+}
+
+.yoga-app img{
+    width: 30vw;
+    height: 90vh;
+    margin: 1rem 0 1rem 14rem;
+}
+
+/* fitness-journey close */
+
+/* static  open */
+
+.yogastatic{
+    background-color: none;
+}
+
+.static-app{
+    display: flex;
+    background-color: none;
+}
+
+.static-app img{
+    width: 30vw;
+    height: 90vh;
+    margin: 1rem 0 1rem 14rem;
+}
+
+.static{
+    margin:5rem 0 4rem 10rem;
+}
+
+.para1{
+    font-size: 3rem;
+}
+
+.fa-heart{
+    color: red;
+}
+
+.static-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 3rem 0 0 0;
+}
+
+.static-text{
+    font-size: 1rem;
+    margin: 1rem 1rem 1rem 0;
+}
+
+/* static close */
+
+
+/* footer open */
+
+.footer{
+    padding: 1rem 0;
+    display: flex;
+    background-color: gray;
+}
+
+.foo{
+    width: 20vw;
+    margin-top: 3rem; 
+}
+
+.foot{
+    font-weight: bold;
+}
+
+/* footer close */
+
+
+/* responsive design of web page */
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 380px) {
+   .para{
+    font-size: 2rem;
+    margin: 3rem 3rem 3rem 5rem;
+   }
+
+   section .text{
+    font-size: 1rem;
+    margin: 3rem 3rem 3rem 5rem;
+   }
+
+   .section-box img{
+    width: 5rem;
+    height: 2rem;
+    margin: 0 0 0 5rem;
+    }
+
+    .health-app{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: none;
+    }
+
+    .health-app img{
+        width: 50vw;
+        height: 40vh;
+        margin: 1rem 0 0 6rem;
+    }
+
+    .app .app-text{
+        font-size: 2rem;
+        margin:0 0 1rem 5rem;
+    }
+
+    .app p{
+        font-size: 1rem;
+        margin:0 0 1rem 5rem;
+    }
+
+    .app button{
+        margin: 0 0 1rem 5rem;
+        border: 1px solid #fff;
+        font-size: .8rem;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    .tools .tools-text{
+        font-size: 2rem;
+    }
+
+    .tools p{
+        font-size: 1rem;
+    }
+
+    .goals{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: none;
+    }
+
+    .goals-images img{
+        width: 5rem;
+        height: 4rem;
+    }
+
+    .images-text{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .goals-images p{
+        font-size: .8rem;
+    }
+
+    .fitness-journey{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: none;
+    }
+
+    .yoga .yoga-text{
+        font-size: 2rem;
+        margin: 0 0 1rem 5rem;
+    }
+
+    .yoga p{
+        font-size: 1rem; 
+        margin: 0 0 1rem 5rem;  
+    }
+
+    .yoga button{
+        margin: 0 0 1rem 5rem;
+        border: 1px solid #fff;
+        font-size: .8rem;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    .yoga-app img{
+        width: 50vw;
+        height: 40vh;
+        margin: 1rem 0 0 6rem;
+    }
+
+    .static-app{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: none;
+    }
+
+    .static-app img{
+        width: 50vw;
+        height: 40vh;
+        margin: 1rem 0 0 6rem;
+    }
+    
+    .para1{
+        font-size: 2rem;
+    }
+
+    .fa-heart{
+        color: red;
+    }
+
+    .static-heading{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .static-text{
+        font-size: .8rem;
+    }
+}
+
+/* For toggle button */
+
+@media (max-width :380px){
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;    
+    }
+
+    .toggle-button{
+        display: flex;
+    }
+
+    .navbar-link{
+        display: none;
+        width: 100%;   
+    }
+
+    .navbar-link ul{
+        width: 100%;
+        flex-direction: column; 
+        background-color: #CD201F;
+        text-align: center;
+    }
+
+    .navbar-link ul li {
+        display: block;
+        text-align: right;  
+
+    }
+
+    .navbar-link ul li a{ 
+        font-size: 1rem;
+        color: black;   
+    }
+
+    .navbar-link.active{
+        display: flex;
+        flex-direction: column;
+    }
+     .btn{
+        display: none;
+        width: 100%;
+    }
+}
